@@ -1,0 +1,26 @@
+{
+    "name": "node-zebrix-client",
+    "version": "1.0.0",
+    "description": "Zebrix API client library for node.js",
+    "license": "MIT",
+    "keywords": [
+        "zebrix"
+    ],
+    "homepage": "https://github.com/tijsverkoyen/node-zebrix-client",
+    "author": "Tijs Verkoyen",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/tijsverkoyen/node-zebrix-client"
+    },
+    "scripts": {
+        "test": "mocha"
+    },
+    "main": "./lib/zebrix.js",
+    "dependencies": {
+        "deep-extend": "^0.6.0",
+        "request": "^2.88.0"
+    },
+    "devDependencies": {
+        "mocha": "^5.2.0"
+    }
+}
