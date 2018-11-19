@@ -22,13 +22,23 @@ client.login(function (data, error) {
 });
 ```
 
+
 ## Installation
 
 `npm install node-zebrix-client`
 
+
+## Run tests
+
+This test suite connects to the real API, so no mocking.
+
+`ZEBRIX_CLIENT=xxxx ZEBRIX_USERNAME=yyyy ZEBRIX_PASSWORD=zzz npm run test`
+
+
 ## Requests
 
-You now have the ability to make GET and POST requests against the API via the convenience methods.
+You now have the ability to make GET and POST requests against the API via the 
+convenience methods.
 
 ```javascript
 client.get(path, body, callback);
