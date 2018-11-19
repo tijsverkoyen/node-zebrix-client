@@ -1,6 +1,6 @@
 {
     "name": "node-zebrix-client",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Zebrix API client library for node.js",
     "license": "MIT",
     "keywords": [
